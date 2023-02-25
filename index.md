@@ -1,3 +1,8 @@
+---
+title: Home
+layout: home
+---
+
 # Machine transaltion
 
 ## What is Machine Translation in General?
