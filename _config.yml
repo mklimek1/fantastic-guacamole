@@ -6,3 +6,7 @@ url: https://mklimek1.github.io/fantastic-guacamole
 
 aux_links:
   Template Repository: https://github.com/mklimek1/fantastic-guacamole
+  
+color_scheme: dark
+
+heading_anchors: true
