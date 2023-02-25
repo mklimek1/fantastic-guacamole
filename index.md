@@ -1,30 +1,22 @@
----
-title: Home
-layout: home
----
+# Machine transaltion
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+## What is Machine Translation in General?
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Machine Translation (MT) or automated translation happens when a computer software translates text from one language to another **without human involvement**.
 
-More specifically, the created site:
+### How does Machine Translation Work?
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+MT works with large amounts of source and target languages that are compared and matched against each other by a machine translation engine. There are three types of machine translation methods:
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+- **Rules-based machine translation**
+uses grammar and language rules, developed by language experts, and dictionaries which can be customized to a specific topic or industry.
+- **Statistical machine translation**
+  does not rely on linguistic rules and words; it learns how to translate by analyzing large amount of existing human translations.
+- **Neural machine translation**
+  teaches itself on how to translate by using a large neural network. This method is becoming more and more popular as it provides better results with language pairs.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+#### What are the benefits of Machine Translation?
 
-To get started with creating a site, just click "[use this template]"!
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+- **Saves time**: Machine language translation can save a lot of time as it can translate entire text documents in seconds, but bear in mind that human translators should always post-edit translations done by MTs.
+- **Reduces costs**: Machine Translation can lower your costs, as it requires less human involvement.
+- **Memorizes items**: Another benefit of machine language translation is its ability to memorize key terms and reuse them if they might fit.
